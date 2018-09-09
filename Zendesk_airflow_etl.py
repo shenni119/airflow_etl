@@ -21,11 +21,6 @@ today_date_str=today_date.strftime("%m-%d")
 time_back_val=5
 time_back_unit='days'
 
-"""
-The convert_time_delta_to_unix function below converts the variables above to unix time,
-which is required by the Zendesk Path/Zendesk Hook. The next lines uses the function to create the unix time and make
-the call with the Zendesk_hook
-"""
 def convert_time_delta_to_unix (unit,time_back):
     if unit=='days':
         delta=dt.timedelta(days=time_back)
