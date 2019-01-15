@@ -1,1 +1,8 @@
-extract and transform json's from Zendesk's API and load to your own S3 using Apache airflow - assumes airflow connections already set up
+Goal/What does the Application Does:
+
+Schedule regular ETL from Zendesk's API to company's S3 bucket
+
+
+Input:
+0. Assumes Airflow connections and a public/private key file is already set up
+1. 
